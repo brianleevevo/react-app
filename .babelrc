@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "es2017",
+    "react"
+  ],
+  "env": {
+    "server": {
+      "presets": [
+        ["env", {
+          "targets": {
+            "node": "current"
+          }
+        }],
+        "react"
+      ]
+    }
+  }
+}
